@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20221020133825">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="home.html" class="header__logo">
+					<picture><source srcset="img/header/logo.webp" type="image/webp"><img src="img/header/logo.png" alt="Shoe"></picture>
+				</a>
+				<div class="header__right">
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a data-goto=".main-block" href="" class="menu__link">Home</a></li>
+								<li class="menu__item"><a data-goto=".products" href="" class="menu__link">Products</a></li>
+							</ul>
+						</nav>
+					</div>
+					<a href="" class="header__cart">
+						<img src="img/header/icons/cart.svg" alt="Cart">
+					</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__section main-block">
+				<div class="main-block__container">
+					<div class="main-block__content content-main">
+						<h1 class="content-main__title">Our clothing , your comfort</h1>
+						<div class="content-main__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+							<nobr>magna aliqua.</nobr>
+						</div>
+					</div>
+				</div>
+				<a href="" data-goto=".products" class="main-block__arrow">
+					<img src="img/main/icons/arrow-down.svg" alt="Arrow Down">
+				</a>
+			</section>
+			<section class="products">
+				<div class="products__filter filter-products">
+					<div class="filter-products__container">
+						<ul class="filter-products__list">
+							<li class="filter-products__item item-filter">
+								<div id="men-checkbox" class="item-filter__checkbox _active"></div>
+								<div class="item-filter__title">Men</div>
+							</li>
+							<li class="filter-products__item item-filter">
+								<div id="women-checkbox" class="item-filter__checkbox _active"></div>
+								<div class="item-filter__title">Women</div>
+							</li>
+							<li class="filter-products__item item-filter">
+								<div id="children-checkbox" class="item-filter__checkbox"></div>
+								<div class="item-filter__title">Children</div>
+							</li>
+						</ul>
+						<div class="filter-products__button btn"><span>See</span> all products</div>
+					</div>
+				</div>
+				<div class="products__main main-products">
+					<div class="main-products__container">
+						<div class="main-products__category category-left-side men-category _active">
+							<div class="main-products__title products-title-left">
+								<p>Men</p>
+							</div>
+							<div class="main-products__outer-wrapper">
+								<!-- Оболочка слайдера -->
+								<div class="main-products__slider swiper">
+									<!-- Двигающееся часть слайдера -->
+									<div class="main-products__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-blue"></span>
+													<span class="slide-product__color color-yellow"></span>
+													<span class="slide-product__color color-black"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/men/01.webp" type="image/webp"><img src="img/products/men/01.png" alt="T-shirt"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">T-shirt</div>
+												<div class="slide-product__price">5,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/men/02.webp" type="image/webp"><img src="img/products/men/02.png" alt="Pants"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Pants FORCLAZ</div>
+												<div class="slide-product__price">30,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">10Litri</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/men/03.webp" type="image/webp"><img src="img/products/men/03.png" alt="Backpack"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Backpack</div>
+												<div class="slide-product__price">60,00€</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-shop__swiper-pagination swiper-pagination"></div>
+									<button type="button" class="navigation-shop__swiper-button-prev swiper-button-prev"></button>
+									<button type="button" class="navigation-shop__swiper-button-next swiper-button-next"></button>
+								</div>
+							</div>
+						</div>
+						<div class="main-products__category category-right-side women-category _active">
+							<div class="main-products__title products-title-right">
+								<p>Women</p>
+							</div>
+							<div class="main-products__outer-wrapper">
+								<div class="main-products__slider swiper">
+									<div class="main-products__wrapper swiper-wrapper">
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/women/01.webp" type="image/webp"><img src="img/products/women/01.png" alt="Jacket"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Giacket</div>
+												<div class="slide-product__price">60,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">5</p>
+														</li>
+														<li>
+															<p class="size-product__item">5.5</p>
+														</li>
+														<li>
+															<p class="size-product__item">6</p>
+														</li>
+														<li>
+															<p class="size-product__item">6.5</p>
+														</li>
+														<li>
+															<p class="size-product__item">7</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/women/02.webp" type="image/webp"><img src="img/products/women/02.png" alt="Shoes"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Trekking Shoes</div>
+												<div class="slide-product__price">80,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-pink"></span>
+													<span class="slide-product__color color-white"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/women/03.webp" type="image/webp"><img src="img/products/women/03.png" alt="T-shirt"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">T-shirt</div>
+												<div class="slide-product__price">20,00€</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-shop__swiper-pagination swiper-pagination"></div>
+									<button type="button" class="navigation-shop__swiper-button-prev swiper-button-prev"></button>
+									<button type="button" class="navigation-shop__swiper-button-next swiper-button-next"></button>
+								</div>
+							</div>
+						</div>
+						<div class="main-products__category category-left-side children-category">
+							<div class="main-products__title products-title-left">
+								<p>Children</p>
+							</div>
+							<div class="main-products__outer-wrapper">
+								<div class="main-products__slider swiper">
+									<div class="main-products__wrapper swiper-wrapper">
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/children/01.webp" type="image/webp"><img src="img/products/children/01.png" alt="Boots"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Boots</div>
+												<div class="slide-product__price">30,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/children/02.webp" type="image/webp"><img src="img/products/children/02.png" alt="Sweater"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Sweater</div>
+												<div class="slide-product__price">40,00€</div>
+											</div>
+										</div>
+										<div class="main-products__slide slide-product swiper-slide">
+											<div class="slide-product__top">
+												<div class="slide-product__size size-product">
+													<a href="#" class="size-product__title">Size</a>
+													<ul class="size-product__list">
+														<li>
+															<p class="size-product__item">S</p>
+														</li>
+														<li>
+															<p class="size-product__item">M</p>
+														</li>
+														<li>
+															<p class="size-product__item">L</p>
+														</li>
+													</ul>
+												</div>
+												<div class="slide-product__colors">
+													<span class="slide-product__color color-none"></span>
+												</div>
+											</div>
+											<div class="slide-product__mid">
+												<div class="slide-product__image-ibg_contain">
+													<picture><source srcset="img/products/children/03.webp" type="image/webp"><img src="img/products/children/03.png" alt="Jacket"></picture>
+												</div>
+											</div>
+											<div class="slide-product__bottom">
+												<div class="slide-product__title">Jacket</div>
+												<div class="slide-product__price">55,00€</div>
+											</div>
+										</div>
+									</div>
+									<div class="navigation-shop__swiper-pagination swiper-pagination"></div>
+									<button type="button" class="navigation-shop__swiper-button-prev swiper-button-prev"></button>
+									<button type="button" class="navigation-shop__swiper-button-next swiper-button-next"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<div class="about__body">
+						<div class="about__title">About Us</div>
+						<div class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br>
+							exercitation</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__top top-footer">
+				<div class="top-footer__container">
+					<div class="top-footer__icon">
+						<picture><source srcset="img/footer/01.webp" type="image/webp"><img src="img/footer/01.png" alt="Twitter Icon"></picture>
+					</div>
+					<div class="top-footer__text">“ E-commerce psd theme available ”</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					<div class="bottom-footer__column">
+						<div class="bottom-footer__title">Trekking</div>
+						<div class="bottom-footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+					<div class="bottom-footer__column">
+						<nav class="bottom-footer__menu">
+							<ul class="bottom-footer__list">
+								<li><a href="" class="bottom-footer__link">Credits</a></li>
+								<li><a href="" class="bottom-footer__link">Privacy</a></li>
+								<li><a href="" class="bottom-footer__link">About</a></li>
+								<li><a href="" class="bottom-footer__link">Contact</a></li>
+							</ul>
+						</nav>
+						<div class="bottom-footer__designer">Design by gianluca cosetta</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20221020133825"></script>
+</body>
+
+</html>
